@@ -18,6 +18,7 @@
             <input type="number" name="nomorHp"
                 class="shadow-sm bg-gray-50 border max-w-lg border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Nomor telepon/Wa" required />
+                <p class="text-gray-500">*Cukup masukan angka</p>
         </div>
         <div class="">
             <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Nama Mobil</label>
@@ -50,12 +51,14 @@
             <input type="number" name="kursi"
                 class="shadow-sm bg-gray-50 border border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Jumlah" required />
+                <p class="text-gray-500">*Cukup masukan angka</p>
         </div>
         <div class="">
             <label for="mesin" class="block mb-2 text-sm font-medium text-gray-900">Mesin</label>
             <input type="number" name="mesin"
                 class="shadow-sm bg-gray-50 border border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Mesin/cc" required />
+                <p class="text-gray-500">*Cukup masukan angka</p>
         </div>
         <div class="">
             <label for="bahanBakar" class="block mb-2 text-sm font-medium text-gray-900">Bahan Bakar</label>
@@ -76,12 +79,14 @@
             <input type="number" name="tahun"
                 class="shadow-sm bg-gray-50 border border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Tahun" required />
+                <p class="text-gray-500">*Cukup masukan angka</p>
         </div>
         <div class="">
             <label for="harga" class="block mb-2 text-sm font-medium text-gray-900">Harga</label>
             <input type="number" name="harga"
                 class="shadow-sm bg-gray-50 border border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Harga/Hari" required />
+                <p class="text-gray-500">*Cukup masukan angka</p>
         </div>
         <div class="">
             <label class="block mb-2 text-sm font-medium text-gray-900" for="user_avatar">Upload foto mobil</label>

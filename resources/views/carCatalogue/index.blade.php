@@ -97,7 +97,7 @@
                 Sewakan Mobil</a>
         </div>
         @else
-            <p>*kontak admin jika anda ingin menyewakan mobil anda</p>
+            <p class="mt-5 text-gray-600">*kontak admin jika anda ingin menyewakan mobil anda (baca syarat dan ketentuan terlebihdahulu)</p>
         @endif
     </div>
 @endsection
