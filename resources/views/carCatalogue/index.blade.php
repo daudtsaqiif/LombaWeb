@@ -97,7 +97,7 @@
                 Sewakan Mobil</a>
         </div>
         @else
-            <p class="mt-5 text-gray-600">*kontak admin jika anda ingin menyewakan mobil anda (baca syarat dan ketentuan terlebihdahulu)</p>
+            <p class="mt-5 text-gray-600">*kontak admin jika anda ingin menyewakan mobil anda Hubungi Admin lewat Wa 0813293876</p>
         @endif
     </div>
 @endsection
