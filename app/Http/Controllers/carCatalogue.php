@@ -13,7 +13,7 @@ class carCatalogue extends Controller
      */
     public function index()
     {
-        $title = 'Car - Catalogue';
+        $title = 'Katalog - Mobil';
 
         $car = car::latest()->get();
         return view('carCatalogue.index', compact('car', 'title'));
@@ -25,7 +25,7 @@ class carCatalogue extends Controller
     public function create()
     {
         //
-        $title = 'Car - Add';
+        $title = 'Tambah - Mobil';
 
         return view('carCatalogue.create', compact('title'));
     }
@@ -112,7 +112,7 @@ class carCatalogue extends Controller
         //
             $car = car::find($id);
 
-            Storage::disk('local')->delete('public/catalogue' . basename($car->gambar));
+            Storage::disk('local')->delete('public/catalogue/' . basename($car->gambar));
             $car->delete();
 
             return redirect()->route('car.index');

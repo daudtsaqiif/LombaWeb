@@ -11,7 +11,7 @@ class sewaController extends Controller
      */
     public function index()
     {
-        $title = 'Syarat';
+        $title = 'Syarat - Ketentuan';
         //
         return view('sewa.index', compact(
             'title'

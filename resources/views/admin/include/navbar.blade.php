@@ -1,6 +1,6 @@
 <nav class="bg-white border-gray-200">
     <div class=" flex flex-wrap items-center justify-between p-4">
-        <a href="{{ route('index.index') }}" class="flex items-center ">
+        <a href="{{ route('home.index') }}" class="flex items-center ">
             <p class="self-center text-2xl font-semibold tracking-wide ">SE<span class="text-purple-300">MOL</span></p>
         </a>
         @if (Auth::check())
