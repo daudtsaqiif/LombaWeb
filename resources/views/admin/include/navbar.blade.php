@@ -25,7 +25,8 @@
                 <li>
                     <div class="flex items-center">
                         <div class="flex">
-                            <p class="pr-2 text-lg text-purple-500 order-2 md:order-1">{{ Auth::user()->name }}</p>
+                            <img class="ml-3 w-10 h-10 rounded-full lg:order-2" src="https://ui-avatars.com/api/?background=random&name={{ Auth::user()->name }}" alt="Neil image">
+                            <p class="ml-2 mt-2 text-lg text-purple-500 lg:order-1">{{ Auth::user()->name }}</p>
                         </div>
                         <a href="{{ route('login.create') }}"
                             class="flex m-3 py-3 px-3 text-white bg-green-600 border rounded-full relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-red-500 before:to-red-600 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-white">

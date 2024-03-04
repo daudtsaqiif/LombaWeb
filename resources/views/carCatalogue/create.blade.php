@@ -62,9 +62,11 @@
         </div>
         <div class="">
             <label for="bahanBakar" class="block mb-2 text-sm font-medium text-gray-900">Bahan Bakar</label>
-            <input type="text" name="bahanBakar"
-                class="shadow-sm bg-gray-50 border border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5"
-                placeholder="BahanBakar" required />
+            <select name="bahanBakar"
+            class="bg-gray-50 border border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5">
+            <option>Bensin</option>
+            <option>Listrik</option>
+        </select>
         </div>
         <div class="">
             <label for="transmisi" class="block mb-2 text-sm font-medium text-gray-900">Transmisi</label>
