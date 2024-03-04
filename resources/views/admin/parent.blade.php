@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="{{ asset('asset/images/semol (2).png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('asset/image/semol.png') }}" type="image/x-icon">
     <title>{{ $title }}</title>
     <style type="text/tailwindcss">
         @layer utilities {
