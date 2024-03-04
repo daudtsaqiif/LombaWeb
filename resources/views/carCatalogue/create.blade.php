@@ -83,7 +83,7 @@
         </div>
         <div class="">
             <label for="harga" class="block mb-2 text-sm font-medium text-gray-900">Harga</label>
-            <input type="number" name="harga"
+            <input type="text" name="harga"
                 class="shadow-sm bg-gray-50 border border-gray-300 max-w-lg text-gray-900 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Harga/Hari" required />
                 <p class="text-gray-500">*Cukup masukan angka</p>

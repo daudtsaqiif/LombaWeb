@@ -27,7 +27,7 @@
                 <div class="max-w-sm bg-gray-100 rounded-lg shadow-md crusor-default ">
                     <div class="p-4">
                         <h2 class="text-lg font-medium text-gray-900">{{ $c->name }}</h2>
-                        <p class="text-gray-500 text-base">RP.{{ $c->harga }}/Hari</p>
+                        <p class="text-gray-500 text-base">RP{{ $c->harga }}/Hari</p>
                     </div>
                     <img class="w-full h-48 " src="{{ asset('catalogue/' . $c->gambar) }}" alt="Toyota New Yaris car">
                     <div class=" flex  justify-between p-4 group ">

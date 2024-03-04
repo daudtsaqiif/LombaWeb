@@ -50,9 +50,6 @@ class carCatalogue extends Controller
             'gambar' => 'required|image|mimes:jpeg,png,jpg|max:9000'
         ]);
         
-        // $gambar = $request->file('gambar');
-        // $gambar->storeAs('public/catalogue', $gambar->hashName());
-
             $data = car::create([
                 'pemilik' =>$request->pemilik,
                 'nomorHp' =>$request->nomorHp,

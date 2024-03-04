@@ -38,7 +38,7 @@
                 <label for="" class="text-sm font-medium">Harga/Hari</label>
                 <input type="text"
                     class="bg-gray-100 max-w-lg  border border-gray-300 text-sm rounded-lg block w-full p-2.5 "
-                    value="RP.{{ $car->harga }}" disabled>
+                    value="RP{{ $car->harga }}" disabled>
             </div>
             <div class="">
                 <label for="" class="text-sm font-medium">Tahun</label>
