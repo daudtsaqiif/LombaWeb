@@ -11,8 +11,10 @@
 
     <div class="flex justify-between">
         <div class="m-6">
-            <h1 class="text-3xl font-bold">Car Catalogue</h1>
-            <p class="text-gray-500">Explore out cars you might like!</p>
+            <h1 class="text-3xl font-bold">
+                Katalog Mobil</h1>
+            <p class="text-gray-500">
+                Jelajahi mobil yang mungkin Anda sukai!</p>
         </div>
 
 

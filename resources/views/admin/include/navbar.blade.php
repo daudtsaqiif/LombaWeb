@@ -1,8 +1,9 @@
 <nav class="bg-white border-gray-200">
     <div class=" flex flex-wrap items-center justify-between p-4">
-        <a href="#" class="flex items-center ">
-            <span class="self-center text-2xl font-semibold ">SEMOL</span>
+        <a href="{{ route('index.index') }}" class="flex items-center ">
+            <p class="self-center text-2xl font-semibold tracking-wide ">SE<span class="text-purple-300">MOL</span></p>
         </a>
+        @if (Auth::check())
         <div class=" flex ">
             <ul
                 class="font-medium flex flex-col">
@@ -17,14 +18,16 @@
                 </li>
             </ul>
         </div>
+        @else
+            <p class="text-gray-500">*Login/sigin terlebih dahulu untuk mengakses</p>
+        @endif
+        
         <ul class="font-medium flex flex-col">
             @if (Auth::check())
                 <li>
                     <div class="flex items-center">
                         <div class="flex">
                             <p class="pr-2 text-lg text-purple-500 order-2 md:order-1">{{ Auth::user()->name }}</p>
-                            <img class="w-8 h-8 rounded-full mr-1 order-1 md:order-2"
-                                src="{{ asset('asset/imgs/profile.jpg') }}" alt="user photo">
                         </div>
                         <a href="{{ route('login.create') }}"
                             class="block m-3 py-2 px-3 text-white bg-red-600 border rounded-lg hover:bg-red-800">Logout</a>
