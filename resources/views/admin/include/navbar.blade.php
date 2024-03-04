@@ -1,8 +1,9 @@
 <nav class="bg-white border-gray-200">
     <div class=" flex flex-wrap items-center justify-between p-4">
-        <a href="{{ route('login.create') }}" class="flex items-center ">
-            <p class="self-center text-2xl font-semibold tracking-wide ">SE<span class="text-purple-300">MOL</span></p>
-        </a>
+        <img src="{{ asset('asset/image/se(7).png') }}" alt="" >
+        {{-- <a href="#" class="flex items-center ">
+            <p class="self-center text-2xl font-semibold tracking-wide "><span class="text-purple-300">SE</span>MOL<span class="text-sm text-gray-700">online</span></p>
+        </a> --}}
         @if (Auth::check())
             <div class=" flex ">
                 <ul class="font-medium flex flex-col">
