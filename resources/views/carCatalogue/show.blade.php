@@ -72,7 +72,7 @@
                     </svg>
                     Kembali
                 </a>
-                <p class="text-gray-600 ml-4">*Jika anda ingin menyewa kendaraan anda bisa menghubungi nomor telepon yang tersedia.</p>
+                <p class="text-gray-600 ml-4">*Jika anda ingin menyewa kendaraan bisa menghubungi nomor telepon yang tersedia.</p>
             </div>
 
         </div>
